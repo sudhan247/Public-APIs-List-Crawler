@@ -1,0 +1,16 @@
+version: '3'
+services:
+  try:
+        build: ./
+        command: python postman.py
+  db:
+    image: "postgres:11"
+    container_name: "my_postman_sudhan"
+    restart: always 
+    ports:
+      - "5439:5439"
+    environment:
+      POSTGRES_USER: 'user'
+      POSTGRES_PASSWORD: 'pass'
+      POSTGRES_HOST: 'localhost'
+      POSTGRES_PORT: '5439'
