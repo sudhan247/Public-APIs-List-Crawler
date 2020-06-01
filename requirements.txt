@@ -1,0 +1,5 @@
+pip install requests
+pip install pandas 
+pip install sqlalchemy 
+pip install cx_oracle
+pip install psycopg2
