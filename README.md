@@ -3,10 +3,15 @@
 a. Steps to run code.
   
    Using Docker:
+   
    	1) open Command Prompt
+	
 	2) Enter "git clone https://github.com/sudhan247/Public-APIs-List-Crawler.git"(This will download the contents from git)
+	
 	3) Enter "cd Public-APIs-List-Crawler"(Move to the respective directory)
+	
 	4) Enter "docker-compose up"(This will build up the things and it takes roughly 20 minutes to retrieve the data)
+	
 	5) Then all API entries will be retrieved from the table.
 
 b. Details of all the tables and their schema.
