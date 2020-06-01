@@ -4,7 +4,7 @@ from time import *
 from collections import defaultdict
 import pandas as pd
 from sqlalchemy import create_engine
-engine = create_engine('postgresql://user:pass@db')
+engine = create_engine('postgresql://user:pass@db',echo=True)
 class postman():
     def __init__(self):
         self.url=''
