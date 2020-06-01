@@ -1,6 +1,12 @@
 # Public-APIs-List-Crawler
 
 a. Steps to run code.
+
+
+  | Name     | Character |
+  | ---      | ---       |
+  | Backtick | `         |
+  | Pipe     | \|        |
   
    Using Docker:
    
