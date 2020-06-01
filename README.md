@@ -16,7 +16,8 @@ a. Steps to run code.
 	
    Using Windows:
     
-        1) Install python and requirements.txt
+        
+	1) Install python and requirements.txt
 	
 	2) Install postgresql compatible with python version.
 	
