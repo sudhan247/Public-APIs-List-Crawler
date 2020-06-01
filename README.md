@@ -4,7 +4,8 @@ Postman_api
 a. Steps to run your code. As less steps we are to run, better for you (Hint: Docker)
 
 
-b. Details of all the tables and their schema, [with commands to recreate them if possible]
+b. Details of all the tables and their schema.
+
 
 c. What is done from “Points to achieve” and number of entries in your table
 
