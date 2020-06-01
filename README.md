@@ -4,7 +4,7 @@ a. Steps to run code.
   
    Using Docker:
    
-   	1) open Command Prompt
+   	1) Open Command Prompt
 	
 	2) Enter "git clone https://github.com/sudhan247/Public-APIs-List-Crawler.git"(This will download the contents from git)
 	
