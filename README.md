@@ -20,6 +20,7 @@ c. What is done from “Points to achieve” and number of entries in your table
     
     Number of entries:524
 d. What is not done from “Points to achieve”. If not achieved write the possible reasons and current workarounds.
-
+     
+     All features in Points to achieve are achieved in my code.
 
 e. What would you improve if given more days
