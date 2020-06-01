@@ -5,7 +5,7 @@ services:
         command: python postman.py
   db:
     image: "postgres:11"
-    container_name: "my_postman_sudhan"
+    container_name: "my_postman_api_sudhan"
     restart: always 
     ports:
       - "5439:5439"
