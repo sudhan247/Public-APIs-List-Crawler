@@ -14,7 +14,7 @@ a. Steps to run code.
 	
 	5) Then all API entries will be retrieved from the table.
 	
-    Using Windows:
+   Using Windows:
     
         1) Install python and requirements.txt
 	
