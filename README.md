@@ -35,6 +35,8 @@ b. Details of all the tables and their schema.
 	| Cors | TEXT |
 	| Link | TEXT |
 	| Category | TEXT |
+	
+	
     CREATE TABLE sudhan_postmanapi (
 	"API" TEXT, 
 	"Description" TEXT, 
