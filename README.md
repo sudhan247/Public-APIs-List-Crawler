@@ -1,7 +1,7 @@
 # Public-APIs-List-Crawler
 Postman_api
 
-a. Steps to run your code. As less steps we are to run, better for you (Hint: Docker)
+a. Steps to run code.
 
 
 b. Details of all the tables and their schema.
