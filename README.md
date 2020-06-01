@@ -25,7 +25,7 @@ a. Steps to run code.
 	
 b. Details of all the tables and their schema.
     
-      # sudhan_postmanapi
+       sudhan_postmanapi
     	
 | Column      | Description |
 | ---         | ---         |
