@@ -68,6 +68,6 @@ class postman():
 crawler=postman()
 crawler.get_all_categories()
 crawler.get_each_category()
-print(pd.DataFrame(engine.execute("select * from postmanapi_test").fetchall(),
+print(pd.DataFrame(engine.execute("select * from sudhan_postmanapi").fetchall(),
                    columns=['API','Description','Auth','HTTPS','Cors','Link','Category']).to_string())
 
