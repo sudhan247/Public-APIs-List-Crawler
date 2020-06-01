@@ -13,7 +13,15 @@ a. Steps to run code.
 	4) Enter "docker-compose up"(This will build up the things and it takes roughly 20 minutes to retrieve the data)
 	
 	5) Then all API entries will be retrieved from the table.
-
+	
+    Using Windows:
+    
+        1) Install python and requirements.txt
+	
+	2) Install postgresql compatible with python version.
+	
+	3) Change the postman.py engine=create_engine('postgresql://user:pass@localhost',echo=True)
+	
 b. Details of all the tables and their schema.
     
     CREATE TABLE sudhan_postmanapi (
