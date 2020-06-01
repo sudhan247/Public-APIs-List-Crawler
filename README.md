@@ -1,12 +1,6 @@
 # Public-APIs-List-Crawler
 
 a. Steps to run code.
-
-
-  | Name     | Character |
-  | ---      | ---       |
-  | Backtick | `         |
-  | Pipe     | \|        |
   
    Using Docker:
    
@@ -32,15 +26,15 @@ a. Steps to run code.
 b. Details of all the tables and their schema.
     
     	
-	| Column | Description |
-	| --- | --- |
-	| API | TEXT |
-	| Description | TEXT |
-	| Auth | TEXT |
-	| HTTPS | BOOLEAN |
-	| Cors | TEXT |
-	| Link | TEXT |
-	| Category | TEXT |
+	| Column      | Description |
+	| ---         | ---         |
+	| API         | TEXT        |
+	| Description | TEXT        |
+	| Auth        | TEXT        |
+	| HTTPS       | BOOLEAN     |
+	| Cors        | TEXT        |
+	| Link        | TEXT        |
+	| Category    | TEXT        |
 	
 	
     CREATE TABLE sudhan_postmanapi (
