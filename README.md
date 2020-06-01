@@ -25,7 +25,8 @@ a. Steps to run code.
 	
 b. Details of all the tables and their schema.
     
-    	| Column | Description |
+    	
+	| Column | Description |
 	| --- | --- |
 	| API | TEXT |
 	| Description | TEXT |
