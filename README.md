@@ -24,3 +24,5 @@ d. What is not done from “Points to achieve”. If not achieved write the poss
      All features in Points to achieve are achieved in my code.
 
 e. What would you improve if given more days
+    
+     I will improve my code to resolve network errors and improve the time efficiency of my code.
