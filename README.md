@@ -1,5 +1,6 @@
 # Public-APIs-List-Crawler
 Postman_api
+
 a. Steps to run your code. As less steps we are to run, better for you (Hint: Docker)
 
 
@@ -17,7 +18,7 @@ c. What is done from “Points to achieve” and number of entries in your table
     
     5)All API entries for all categories are stored in a database.
     
-    # Number of entries:524
+    Number of entries:524
 d. What is not done from “Points to achieve”. If not achieved write the possible reasons and current workarounds.
 
 
