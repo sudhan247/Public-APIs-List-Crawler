@@ -60,7 +60,7 @@ c. What is done from “Points to achieve” and number of entries in your table
     
     5)All API entries for all categories are stored in a database.
     
-    Number of entries in table: 640
+    Number of entries in table: 640 (Index based on 1)
 d. What is not done from “Points to achieve”. If not achieved write the possible reasons and current workarounds.
      
      All features in Points to achieve are achieved in my code.
