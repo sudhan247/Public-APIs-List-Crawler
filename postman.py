@@ -33,6 +33,11 @@ class postman():
             self.page_no+=1
         print('Categories Retrieved:',len(self.category))
         print(self.category)
+    def enc_all_categories(self):
+        for i in range(len(self.category)):
+            if '&' in self.category[i]:
+                self.category[i]=self.category[i].replace('&','%26')
+        
     def get_each_category(self):
         for page in range(self.ind,len(self.category)):
             category=self.category[page]
@@ -67,6 +72,7 @@ class postman():
                                           )
 crawler=postman()
 crawler.get_all_categories()
+crawler.enc_all_categories()
 crawler.get_each_category()
 print(pd.DataFrame(engine.execute("select * from sudhan_postmanapi").fetchall(),
                    columns=['API','Description','Auth','HTTPS','Cors','Link','Category']).to_string())
