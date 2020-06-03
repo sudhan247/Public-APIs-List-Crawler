@@ -8,9 +8,9 @@ services:
     container_name: "my_postman_sudhan1"
     restart: always 
     ports:
-      - "5639:5639"
+      - "5333:5333"
     environment:
       POSTGRES_USER: 'user'
       POSTGRES_PASSWORD: 'pass'
       POSTGRES_HOST: 'localhost'
-      POSTGRES_PORT: '5639'
+      POSTGRES_PORT: '5333'
