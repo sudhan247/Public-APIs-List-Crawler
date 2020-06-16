@@ -64,7 +64,7 @@ class postman():
                         print('*'*50+'Slept'+'*'*50)
                         sleep(38)
                         print('*'*50+'Waked'+'*'*50)
-        pd.DataFrame(self.all_api).to_sql('sudhan_postmanapi',
+        pd.DataFrame(self.all_api).to_sql('sudhan_postman_api',
                                           con=engine,
                                           index=False
                                           )        
@@ -72,5 +72,5 @@ crawler=postman()
 crawler.get_all_categories()
 crawler.enc_all_categories()
 crawler.get_each_category()
-print(pd.DataFrame(engine.execute("select * from sudhan_postmanapi").fetchall(),
+print(pd.DataFrame(engine.execute("select * from sudhan_postman_api").fetchall(),
                   columns=['API','Description','Auth','HTTPS','Cors','Link','Category']).to_string())
