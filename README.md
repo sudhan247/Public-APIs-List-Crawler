@@ -10,7 +10,7 @@ a. Steps to run code.
 	
 	3) Enter "cd Public-APIs-List-Crawler"(Move to the respective directory)
 	
-	4) Enter "docker-compose up"(This will build up the things and it takes roughly 10 minutes to retrieve the data)
+	4) Enter "docker-compose up"(This will build up the things and it takes roughly 8-10 minutes to retrieve the data)
 	
 	5) Then all API entries will be retrieved from the table.
 	
