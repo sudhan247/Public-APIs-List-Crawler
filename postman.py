@@ -4,7 +4,7 @@ from time import *
 import pandas as pd
 from sqlalchemy import create_engine
 from math import ceil
-engine = create_engine('postgresql://system:1234@db',echo=True)
+engine = create_engine('postgresql://user:pass@db',echo=True)
 class postman():
     def __init__(self):
         self.url=''
